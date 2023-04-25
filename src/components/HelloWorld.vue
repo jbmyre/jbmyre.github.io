@@ -33,6 +33,7 @@
                 <li
                 v-for="(skill, i) in job.responsibilities"
                 v-text="skill"
+                :key="i"
                 />
               </ul>
             </v-card-text>
