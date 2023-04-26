@@ -5,13 +5,13 @@ export const useWorkHistory = defineStore('app', {
   state: () => ({
     jobs: [
       {
-        title: "Senior Broadcast Solutions Software Engineer",
+        title: "Senior Software Engineer - Broadcast Solutions",
         company: "Sportradar AG",
         start_year: "2018",
         end_year: "Present",
         description: "Design, develop and work in an agile team to build to scale comprehensive data\n" +
-          "graphics applications that create and deliver customized solutions to major networks\n" +
-          "in a dynamic live sports environment.",
+        "graphics applications that create and deliver customized solutions to major networks\n" +
+        "in a dynamic live sports environment.",
         responsibilities: [
           "Deploy and test unique broadcast graphics software solutions to enterprise customers\n" +
           "(CBS, FOX, NBC, Bally Sports etc.) with hundreds of millions of TV viewers",
@@ -34,7 +34,7 @@ export const useWorkHistory = defineStore('app', {
           "Support on-air transmission and team of engineers with post production facilities, media asset management with Adobe Premiere, Avid, Chyron & graphics rendering",
           "Project Management including research, consulting, planning and design of technology upgrades",
           "Maintain technologies vital to live and file-based digital work flows",
-          "Design and Develop internal applications in Python, Javascript, SQL & PostgreSQL",
+          "Design and Develop software solutions for internal backend applications Python, Javascript & PostgreSQL",
           "Oversee and maintain NAS, SAN, Windows & Linux servers, network & virtual environment"
         ]
       },
@@ -46,7 +46,10 @@ export const useWorkHistory = defineStore('app', {
         description: null,
         responsibilities: [
           "Design and oversee AV installations for corporations and schools",
-          "Service calls and consulting on IT systems"
+          "Design and budget custom audio visual solutions through system installation and final commissioning",
+          "Service calls and consulting on IT systems",
+          "Drafting in Autocad, optimizing workflows with Unix shell scripting", "" +
+          "Program audio DSPs"
         ]
       },
       {
@@ -62,13 +65,14 @@ export const useWorkHistory = defineStore('app', {
         ]
       },
       {
-        title: "Chief Audio Engineer & Mixer ",
-        company: "Recording studios and live venues",
+        title: "Freelance Audio Engineer",
+        company: "Various recording studios and live venues",
         start_year: "2005",
-        end_year: "2009",
+        end_year: "2014",
         description: null,
         responsibilities: [
-          "Joes Public Theater, Kumble Theater (LIU), The Hook, Rocks Off etc..."
+          "Produce, Track, Mix for many major label artists using Pro Tools, D-Command and Neve, SSL & Harrison Consoles alongside Grammy-winning mixer Bassy Bob Brockman.",
+          "Live Front of House for venues: Joes Public Theater, Brooklyn Bowl, Irving Plaza, Bowery Ballroom, and many more..."
         ]
       },
 

@@ -7,17 +7,32 @@
       >
         <template v-slot:prepend>
           <v-list-item
-            lines="two"
-            prepend-avatar="@/assets/jb.png"
+            lines="three"
+            subtitle="Senior Software Engineer"
+            class="text-center"
           >
-            <template v-slot:title><h6 class="text-h5 font-weight-bold text-uppercase">Joel Buikema</h6></template></v-list-item>
+            <template v-slot:title><h6 class="text-h5 font-weight-bold text-uppercase text-center">Joel Buikema</h6></template></v-list-item>
         </template>
 
         <v-divider></v-divider>
 
         <v-list density="compact" nav>
           <v-list-item prepend-icon="mdi-phone" title="917-453-1127"></v-list-item>
-          <v-list-item prepend-icon="mdi-email" title="jbmyre@gmail.com"></v-list-item>
+          <v-list-item prepend-icon="mdi-email">
+            <template v-slot:title>
+              <a class="text-white" href="mailto:jbmyre@gmail.com">jbmyre@gmail.com</a>
+            </template>
+          </v-list-item>
+          <v-list-item prepend-icon="mdi-linkedin">
+            <template v-slot:title>
+            <a class="text-white" href="https://www.linkedin.com/in/joelbuikema">LinkedIn Profile</a>
+            </template>
+          </v-list-item>
+          <v-list-item prepend-icon="mdi-download">
+            <template v-slot:title>
+            <a class="text-white" :href="'/files/Joel B resume_2023.pdf'" download>Current Resume</a>
+            </template>
+          </v-list-item>
         </v-list>
 
         <v-divider></v-divider>

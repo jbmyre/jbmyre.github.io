@@ -1,10 +1,13 @@
 <template>
+
   <v-container class="fill-height">
     <v-responsive class="d-flex align-center fill-height">
+      <div class="py-8" />
 
-      <h3 class="text-h3 font-weight-bold text-center">WORK HISTORY</h3>
+      <h4 class="text-h4 font-weight-bold text-center">WORK HISTORY</h4>
 
-      <div class="py-14" />
+
+      <div class="py-8" />
 
       <v-row no-gutters class="d-flex align-center justify-sm-space-between">
 
@@ -50,6 +53,7 @@
         </v-timeline-item>
       </v-timeline>
       </v-row>
+
     </v-responsive>
   </v-container>
 </template>
